@@ -4,7 +4,7 @@ Module CirculoTest
         Dim circulo1 As New Circulo()
         circulo1.Nombre = "Circulo1"
         circulo1.Radio = 3
-        Console.WriteLine("El Nombre: " & circulo1.Nombre)
+        Console.WriteLine("El Nombre : " & circulo1.Nombre)
         Console.WriteLine("El Radio ingresado es: " & circulo1.Radio)
         Console.WriteLine("El Area del Circulo es: " & circulo1.CalcularArea())
         Console.WriteLine()
